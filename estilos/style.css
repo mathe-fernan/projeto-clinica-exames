@@ -3,21 +3,46 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 :root{
-    --cor1:
+    --cor1:(#5EAB70)
 }
 header{
     background-color: #5EAB70;
-    height: 135px;
+    height: 140px;
 }
 header h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: white;
     margin: auto;
     text-align: center;
-    padding: 20px 0px;
+    padding-bottom: px;
+    padding-top: 40px;
+    margin-bottom: 16px;
 }
+header nav{
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+}
+header nav a{
+    margin: auto;
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+header nav a:hover{
+    color: #325C3C;
+    transition: color 0.4s;
+}
+#barrinha-embaixo{
+    width: 100vw;
+    background-color: #325C3C;
+    height: 10px;
+}
+
 
 footer{
     background-color: #505E53;
