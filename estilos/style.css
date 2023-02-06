@@ -17,14 +17,13 @@ header h1{
     color: white;
     margin: auto;
     text-align: center;
-    padding-bottom: px;
-    padding-top: 40px;
-    margin-bottom: 16px;
+}
+#burgue{
+    color: white;
+    display: block;
 }
 header nav{
-    margin-bottom: 8px;
     text-align: center;
-    position: relative;
 }
 header nav a{
     margin: auto;
@@ -38,7 +37,7 @@ header nav a:hover{
     transition: color 0.4s;
 }
 #barrinha-embaixo{
-    width: 100vw;
+    width: 100%;
     background-color: #325C3C;
     height: 10px;
 }
