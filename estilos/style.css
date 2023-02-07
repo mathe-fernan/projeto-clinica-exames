@@ -67,6 +67,9 @@ header nav a:hover{
     line-height: 1.5em;
 }
 /*colocar aqui imagem de empresa ou algo do tipo, em parallax*/
+#imagem-paralalax{
+    background-image: black, url(../);
+}
 footer{
     background-color: #505E53;
     color: white;
