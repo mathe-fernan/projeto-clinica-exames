@@ -60,7 +60,8 @@ header nav a:hover{
 #parte1{
     margin: auto;
     margin-top: 30px;
-    max-width: 900px;    
+    max-width: 900px;  
+    margin-bottom: 30px;  
 }
 #parte1 h1{
     margin-bottom: 10px;
@@ -84,6 +85,39 @@ header nav a:hover{
     background-image: url(../imagens/pexels-emmy-e-2381069.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.444);
+}
+/*tentar tirar section pra cada item ser div*/
+#svalores{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#titulo-valores{
+    text-align: center;
+    font-size: 1.7em;
+
+    color: #505E53;
+}
+.valores > h2{
+    font-size: 1.2em;
+    display: inline-block;
+}
+#resp{
+    width: 600px;
+    height: 266px;
+    margin: auto;
+    display: block;
+    background-color: #5EAB70;
+}
+#resp img{
+    width: 400px;
+    height: 266px;
+
+    float: right;
 }
 footer{
     background-color: #505E53;
