@@ -112,8 +112,28 @@ header nav a:hover{
     margin: auto;
     display: block;
     background-color: #5EAB70;
+    transform: translate(-18%);
 }
 #resp img{
+    width: 400px;
+    height: 266px;
+
+    float: right;
+}
+#resp h2{
+    color: white;
+
+    transform: translate(75%, 500%);
+}
+#equi{
+    width: 600px;
+    height: 266px;
+    margin: auto;
+    display: block;
+    background-color: #5EAB70;
+    transform: translate(-18%);
+}
+#equi img{
     width: 400px;
     height: 266px;
 
