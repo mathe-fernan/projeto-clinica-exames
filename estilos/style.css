@@ -77,18 +77,28 @@ header nav a:hover{
     text-align: justify;
     line-height: 1.5em;
 }
-#imagem-dona{
-    width: 700px;
-    height: 466px;
+#sec-imagem-dona{
+    width: 100vw;
+    height: 488px;
     margin: auto;
 
-    background-image: url(../imagens/pexels-emmy-e-2381069.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #505E53;
 
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.444);
+
+    position: relative;
 }
-/*tentar tirar section pra cada item ser div*/
+#imagem-dona{
+    width: 731px;
+    height: 488px;
+
+    background-color: #5EAB70;
+
+/*Ajustar posição*/
+    position: absolute;
+
+
+}
+
 #svalores{
     width: 400px;
     margin: auto;
