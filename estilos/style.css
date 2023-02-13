@@ -10,6 +10,7 @@ body html{
     height: 100vh;
 }
 header{
+    width: 100%;
     height: 140px;
     padding-top: 18px;
 
@@ -78,12 +79,10 @@ header nav a:hover{
     line-height: 1.5em;
 }
 #sec-imagem-dona{
-    width: 100vw;
+    width: 100%;
     height: 488px;
-    margin: auto;
-
-    background-color: #505E53;
-
+    margin: 30px auto;
+    
 
     position: relative;
 }
@@ -92,29 +91,31 @@ header nav a:hover{
     height: 488px;
 
     background-color: #5EAB70;
+    background-image: url(../imagens/pexels-emmy-e-2381069.jpg);
+    background-size: cover;
 
-/*Ajustar posição*/
     position: absolute;
-
-
+    left: 50%;
+    transform: translate(-50%);
 }
-
 #svalores{
     width: 400px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 #titulo-valores{
     text-align: center;
     font-size: 1.7em;
 
     color: #505E53;
+    margin-bottom: 30px;
 }
 .valores > h2{
     font-size: 1.2em;
     display: inline-block;
+
+ 
 }
 #resp{
     width: 600px;
@@ -149,7 +150,54 @@ header nav a:hover{
 
     float: right;
 }
+#equi h2{
+    color: white;
+
+    transform: translate(65%, 500%);
+}
+#inov{
+    width: 600px;
+    height: 266px;
+    margin: auto;
+    display: block;
+    background-color: #5EAB70;
+    transform: translate(-18%);
+}
+#inov img{
+    width: 400px;
+    height: 266px;
+
+    float: right;
+}
+#inov h2{
+    color: white;
+
+
+    transform: translate(75%, 500%);
+}
+#cresc-pess{
+    width: 600px;
+    height: 266px;
+    margin: auto;
+    display: block;
+    background-color: #5EAB70;
+    transform: translate(-18%);
+}
+#cresc-pess img{
+    width: 400px;
+    height: 266px;
+
+    float: right;
+}
+#cresc-pess h2{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+
+    transform: translate(13%, 260%);
+}
 footer{
+    width: 100%;
     background-color: #505E53;
     color: white;
 }
