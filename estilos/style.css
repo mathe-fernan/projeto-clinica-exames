@@ -196,6 +196,33 @@ header nav a:hover{
 
     transform: translate(13%, 260%);
 }
+
+#empresa-antigamente section{
+    text-align: center;
+
+    margin: auto;
+}
+#empresa-antigamente section h1{
+    margin-bottom: 15px;
+
+    font-size: 1.7em;
+    color: #505E53;
+}
+#empresa-antigamente section p{
+    width: 90%;
+    margin: auto;
+
+    text-align: justify;
+    line-height: 1.5em;
+}
+#localizacao section h1{
+    margin: 30px auto;
+    
+    font-size: 1.7em;
+    color: #505E53;
+
+    text-align: center;
+}
 footer{
     width: 100%;
     background-color: #505E53;
