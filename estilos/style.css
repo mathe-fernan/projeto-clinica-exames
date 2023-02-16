@@ -198,6 +198,7 @@ header nav a:hover{
 }
 
 #empresa-antigamente section{
+    max-width: 900px;
     text-align: center;
 
     margin: auto;
@@ -216,9 +217,7 @@ header nav a:hover{
     line-height: 1.5em;
 }
 #localizacao section{
-    height: 490px;
-
-    position: relative;
+    margin-bottom: 40px;
 }
 #localizacao section h1{
     margin: 30px auto;
@@ -229,14 +228,21 @@ header nav a:hover{
     text-align: center;
 }
 #localizacao section iframe{
+    display: block;
+    margin: auto;
+}
+#localizacao section p{
+    background-color: #5EAB70;
 
-    position: absolute;
-    left: 50%;
-
-    transform: translate(-50%);
+    width: 800px;
+    margin: auto;
+    text-align: center;
 }
 footer{
     width: 100%;
+
+    text-align: center;
+
     background-color: #505E53;
     color: white;
 }
